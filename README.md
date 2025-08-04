@@ -1,4 +1,4 @@
-# A/B Testing in Financial Services – Discount Impact Analysis
+# A/B Testing – Discount Impact Analysis
 
 This project simulates and analyzes an A/B test to evaluate whether offering a **15% discount** on financial products improves:
 
@@ -24,3 +24,18 @@ To help decision-makers assess whether discount-based strategies lead to statist
 - **Conversion** increased from **14.0% → 19.9%**
 - **ARPU** increased from **€8.61 → €10.39**
 - Both results were **statistically significant** (`p < 0.001`)
+
+## Technologies & Tools
+
+- Python
+- pandas, numpy, scipy, statsmodels
+- seaborn, matplotlib
+
+## File Overview
+
+| File | Description |
+|------|-------------|
+| `ab-test-pricing-fintech-germany.py` | Analysis script with hypothesis testing and visualization |
+| `images/` | Contains saved plots for use |
+| `requirements.txt` | Python dependencies |
+| `README.md` | This file |
